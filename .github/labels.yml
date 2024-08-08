@@ -1,24 +1,24 @@
 - name: content
-  color: ffa69e
-  description: Issues related to the creation, updating, or management of content
+  color: "ffa69e"
+  description: Issues related to creating, updating, or managing content
 - name: dependencies
-  color: 26547c
-  description: Pull requests that update dependency files, ensuring all packages and libraries are up-to-date
+  color: "26547c"
+  description: Pull requests to update dependency files, ensuring packages and libraries are up-to-date
 - name: dev
-  color: faf3dd
-  description: Issues involving development tasks or code implementation, including bug fixes, feature additions, and code refactoring
+  color: "faf3dd"
+  description: Issues involving development tasks, bug fixes, features, and code refactoring
 - name: javascript
-  color: ffd166
-  description: Pull requests that involve updates or changes to JavaScript code, affecting front-end functionalities and scripts
+  color: "ffd166"
+  description: Pull requests updating JavaScript code, affecting front-end functionalities and scripts
 - name: php
-  color: 06d6a0
-  description: Pull requests that involve updates or changes to PHP code, impacting back-end functionalities and server-side scripts
+  color: "06d6a0"
+  description: Pull requests updating PHP code, impacting back-end functionalities and server-side scripts
 - name: released
-  color: ef476f
+  color: "ef476f"
   description: Issues that have been addressed and released by semantic release
 - name: ui
-  color: b8f2e6
-  description: Issues related to the design or modification of user interface elements, focusing on visual aspects and user interaction design
+  color: "b8f2e6"
+  description: Issues on UI design or modification, focusing on visual aspects and user interaction
 - name: ux
-  color: aed9e0
-  description: Issues aimed at enhancing the user experience, addressing usability, accessibility, and overall user satisfaction
+  color: "aed9e0"
+  description: Issues enhancing user experience, addressing usability, accessibility, and satisfaction
