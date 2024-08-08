@@ -17,15 +17,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download Latest Label Definitions
-        run: |
-          curl -s --retry 5 \
-            "https://raw.githubusercontent.com/21stdigital/workflows/main/.github/labels.yml" \
-            -o labels.yml
-
       - name: Run Label Syncer
-        uses: micnncim/action-label-syncer@v1.3.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: EndBug/label-sync@v2
         with:
-          manifest: labels.yml
+          config-file: https://raw.githubusercontent.com/21stdigital/workflows/main/.github/labels.yml
+          delete-other-labels: false
+          token: ${{ secrets.GITHUB_TOKEN }}
